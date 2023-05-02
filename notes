@@ -1,0 +1,32 @@
+sidebar icons/titles:
+  * home
+  * account
+  * notifications
+  * history
+  * tasks
+
+  * documentation/search?
+
+  information
+
+  * settings
+  * support
+  * security
+
+  * logout
+
+input icons:
+  search
+
+avatar:
+  avatar
+
+top left icons:
+  alert/notification
+
+card icons:
+  * star
+  * eyeball
+  * share
+
+
