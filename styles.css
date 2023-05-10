@@ -21,8 +21,7 @@ body {
   min-height: 100vh;
   grid-template-areas:
     "sidebar header header"
-    "sidebar main aside"
-  ;
+    "sidebar main aside";
   background-color: var(--color-lighter);
   color: var(--color-darkest);
 }
@@ -41,7 +40,7 @@ body {
   display: flex;
   flex-grow: 1;
   flex-direction: column;
-  max-height: 12rem;
+  /* max-height: 12rem; */
 }
 
 .header-div {
@@ -58,6 +57,7 @@ body {
 
 .search-icon {
   margin: 0 8px;
+  width: 32px;
 }
 
 input {
@@ -68,6 +68,18 @@ input {
   font-size: 16px;
   width: clamp(12rem, 42vw, 48rem);
   border-radius: 6px;
+  margin: 5px 0 15px;
+}
+
+.alerts-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bell-icon {
+  width: 20px;
+  margin: 5px;
 }
 
 .avatar-container {
@@ -98,10 +110,7 @@ input {
 
 .small-avatar {
   width: 36px;
-}
-
-.icon {
-  width: 28px;
+  margin: 5px;
 }
 
 .btn {
@@ -172,7 +181,6 @@ input {
 
 .menu li {
   list-style: none;
-
 }
 
 .main {
@@ -185,6 +193,3 @@ input {
   border: 2px dotted maroon;
   grid-area: aside;
 }
-
-
-
