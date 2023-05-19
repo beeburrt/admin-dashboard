@@ -40,7 +40,7 @@ body {
   display: flex;
   flex-grow: 1;
   flex-direction: column;
-  /* max-height: 12rem; */
+  max-height: 12rem;
 }
 
 .header-div {
@@ -192,4 +192,12 @@ input {
 .aside {
   border: 2px dotted maroon;
   grid-area: aside;
+}
+
+@media (width < 16em) {
+
+  .logo-container {
+    font-size: 5rem;
+  }
+  
 }
