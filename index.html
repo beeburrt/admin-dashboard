@@ -4,34 +4,55 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
-    <link rel="icon" type="image/png" href="/assets/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+    <link rel="icon" type="image/png" href="/assets/favicon.png" />
     <title>Admin Dashboard</title>
 
     <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
-  <!-- HEADER -->
-      <header class="header">
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header-container">
         <div class="header-div upper-header">
           <span class="search-container">
-            <img class="search-icon icon" src="assets/icons/search.svg" alt="magnifying glass icon">
-            <input class="search-input" placeholder="Search..." type="text" name="search">
+            <img
+              class="search-icon icon"
+              src="assets/icons/search.svg"
+              alt="magnifying glass icon"
+            />
+            <input
+              class="search-input"
+              placeholder="Search..."
+              type="text"
+              name="search"
+            />
           </span>
           <span class="alerts-container">
-            <img class="bell-icon icon" src="assets/icons/bell.svg" alt="bell icon">
-            <img class="small-avatar" src="assets/icons/avatar.svg" alt="avatar icon">
+            <img
+              class="bell-icon icon"
+              src="assets/icons/bell.svg"
+              alt="bell icon"
+            />
+            <img
+              class="small-avatar"
+              src="assets/icons/avatar.svg"
+              alt="avatar icon"
+            />
             <p>Cheech Marin</p>
           </span>
         </div>
 
         <div class="header-div lower-header">
           <span class="avatar-container">
-            <img class="avatar" src="assets/icons/avatar.svg" alt="avatar">
+            <img class="avatar" src="assets/icons/avatar.svg" alt="avatar" />
             <div class="greeting-container">
               <p class="greeting">Good Morning!</p>
               <p class="name">Cheech Marin @cheech</p>
@@ -43,93 +64,104 @@
             <button class="btn">Import</button>
           </span>
         </div>
-      </header>
+      </div>
+    </header>
 
-      <!-- SIDEBAR -->
+    <!-- SIDEBAR -->
 
-      <section class="sidebar">
-        <div class="logo-container">
-          <img class="logo" src="logo.svg" alt="dashboard icon">
-          <h1 class="dashboard">Dashboard</h1>
+    <section class="sidebar">
+      <div class="logo-container">
+        <img class="logo" src="logo.svg" alt="dashboard icon" />
+        <h1 class="dashboard">Dashboard</h1>
+      </div>
+
+      <div class="menus-container">
+        <menu class="menu">
+          <li class="menu-item profile">
+            <img src="assets/icons/profile.svg" alt="profile icon" />
+            Profile
+          </li>
+          <li class="menu-item messages">
+            <img src="assets/icons/message.svg" alt="messages icon" />
+            Messages
+          </li>
+          <li class="menu-item history">
+            <img src="assets/icons/history.svg" alt="history icon" />
+            History
+          </li>
+          <li class="menu-item tasks">
+            <img src="assets/icons/calendar.svg" alt="" />
+            Tasks
+          </li>
+          <li class="menu-item storage">
+            <img src="assets/icons/data.svg" alt="database icon" />
+            Data
+          </li>
+          <li class="menu-item security">
+            <img src="assets/icons/security.svg" alt="security icon" />
+            Security
+          </li>
+        </menu>
+
+        <menu class="menu">
+          <li class="menu-item settings">
+            <img src="assets/icons/settings.svg" alt="settings icon" />
+            Settings
+          </li>
+          <li class="menu-item docs">
+            <img src="assets/icons/docs.svg" alt="search icon" />
+            Documentation
+          </li>
+          <li class="menu-item support">
+            <img src="assets/icons/support.svg" alt="question-mark icon" />
+            Support
+          </li>
+        </menu>
+
+        <menu class="menu">
+          <li class="menu-item logout">
+            <img src="assets/icons/logout.svg" alt="logout icon" />
+            Logout
+          </li>
+        </menu>
+      </div>
+    </section>
+
+    <!-- MAIN SECTION -->
+
+    <main class="main">
+      <div class="main-title-container">
+        <h3 class="main-title">Current Projects</h3>
+      </div>
+
+      <div class="main-card-container">
+        <div class="main-card">
+          <p class="card-title"></p>
+          <p class="card-text"></p>
+          <div class="card-icons">
+            <img src="assets/icons/star.svg" alt="star icon" />
+            <img src="assets/icons/eye.svg" alt="eye icon" />
+            <img src="assets/icons/share.svg" alt="share icon" />
+          </div>
         </div>
-
-          <menu class="menu">
-            <li class="menu-item profile">
-              <img src="assets/icons/profile.svg" alt="profile icon">
-              Profile
-            </li>
-            <li class="menu-item messages">
-              <img src="assets/icons/message.svg" alt="messages icon">
-              Messages
-            </li>
-            <li class="menu-item history">
-              <img src="assets/icons/history.svg" alt="history icon">
-              History
-            </li>
-            <li class="menu-item tasks">
-              <img src="assets/icons/calendar.svg" alt="">
-              Tasks
-            </li>
-            <li class="menu-item storage">
-              <img src="assets/icons/data.svg" alt="database icon">
-              Data
-            </li>
-            <li class="menu-item security">
-              <img src="assets/icons/security.svg" alt="security icon">
-              Security
-            </li>
-          </menu>
-
-          <menu class="menu">
-            <li class="menu-item settings">
-              <img src="assets/icons/settings.svg" alt="settings icon">
-              Settings
-            </li>
-            <li class="menu-item docs">
-              <img src="assets/icons/docs.svg" alt="search icon">
-              Documentation
-            </li>
-            <li class="menu-item support">
-              <img src="assets/icons/support.svg" alt="question-mark icon">
-              Support
-            </li>
-            </menu>
-
-            <menu class="menu">
-            <li class="menu-item logout">
-              <img src="assets/icons/logout.svg" alt="logout icon">
-              Logout
-            </li>
-          </menu>
-      </section>
-
-      <!-- MAIN SECTION -->
-
-      <main class="main">
-        <div class="main-title">
-          <h3 class="task-title">Current Tasks</h3>
-        </div>
         <div class="main-card"></div>
         <div class="main-card"></div>
         <div class="main-card"></div>
         <div class="main-card"></div>
         <div class="main-card"></div>
-        <div class="main-card"></div>
-      </main>
+      </div>
+    </main>
 
-      <!-- ASIDE SECTION -->
+    <!-- ASIDE SECTION -->
 
-      <section class="aside">
-        <h3>Announcements</h3>
+    <section class="aside">
+      <h3>Announcements</h3>
 
-        <div class="upper-aside"></div>
+      <div class="upper-aside"></div>
 
-        <h3>Chats</h3>
-        <div class="lower-aside">
-
-        </div>
-      </section>
-
+      <h3>Chats</h3>
+      <div class="lower-aside"></div>
+    </section>
 
     <script src="main.js"></script>
   </body>

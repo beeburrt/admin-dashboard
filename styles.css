@@ -183,11 +183,27 @@ input {
   list-style: none;
 }
 
+/*
+ ************************
+ *   MAIN
+ ************************
+ */
+
 .main {
   border: 2px solid purple;
   grid-area: main;
   width: 55vw;
 }
+
+.card-icons img {
+  width: 24px;
+}
+
+/*
+ ************************
+ *   ASIDE
+ ************************
+ */
 
 .aside {
   border: 2px dotted maroon;
@@ -195,9 +211,7 @@ input {
 }
 
 @media (width < 16em) {
-
   .logo-container {
     font-size: 5rem;
   }
-  
 }
