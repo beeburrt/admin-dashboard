@@ -22,7 +22,7 @@ body {
   grid-template-areas:
     "sidebar header header"
     "sidebar main aside";
-  background-color: var(--color-lighter);
+  background-color: var(--color-lightest);
   color: var(--color-darkest);
 }
 
@@ -199,10 +199,10 @@ input {
  */
 
 .main {
-  border: 2px solid purple;
   padding: 10px 0 0 15px;
   grid-area: main;
   width: 55vw;
+  background-color: var(--color-lightest);
 }
 
 .main-card-container {
@@ -213,6 +213,9 @@ input {
 
 .main-card {
   border: 2px solid gray;
+  background-color: var(--color-lighter);
+  border-radius: 6px;
+  padding: 8px;
 }
 
 .eye {
@@ -236,4 +239,5 @@ input {
 .aside {
   border: 2px dotted maroon;
   grid-area: aside;
+  background-color: var(--color-lightest);
 }
